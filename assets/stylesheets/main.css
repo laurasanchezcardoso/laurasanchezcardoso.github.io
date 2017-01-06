@@ -4,11 +4,14 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 @import url('https://fonts.googleapis.com/css?family=Rasa');
-
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
 /* Main Styles */
 body {
   padding: 0 20%;
-  font-family: 'Rasa', sans-serif;
+  font-family: 'Droid Serif', sans-serif;
   color: #333;
   line-height: 1.5em;
 }
