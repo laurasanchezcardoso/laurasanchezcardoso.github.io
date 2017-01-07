@@ -10,6 +10,8 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif');
 /* Main Styles */
 body {
+	background: blue;
+	background-image: url("../images/contemporary_china.png");
   padding: 0 20%;
   font-family: 'Droid Serif', sans-serif;
   color: #333;
