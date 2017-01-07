@@ -1,4 +1,5 @@
 /* Imports */
+@import 'fonts.css';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css';
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
@@ -10,7 +11,6 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif');
 /* Main Styles */
 body {
-	background: blue;
 	background-image: url("../images/contemporary_china.png");
   padding: 0 20%;
   font-family: 'Droid Serif', sans-serif;
@@ -21,10 +21,15 @@ h1 {
   margin: 2em 0;
 }
 a {
-	color:blue;
+  color: rgba(0, 0, 0, .65);
+  text-decoration: none;
+  -webkit-transition: color 0.25s linear;
 }
-a:hover{
-	color:red;
+a:hover {
+  color: rgba(0, 0, 0, .9);
+}
+.hidden {
+  display: none;
 }
 /* Social Networks */
 .networks li {
@@ -56,5 +61,7 @@ a:hover{
 .icon-twitter:hover {
   color: #1da1f2;
 }
-
+.networks ul {
+text-align: center;
+}
 /* Media Queries */
