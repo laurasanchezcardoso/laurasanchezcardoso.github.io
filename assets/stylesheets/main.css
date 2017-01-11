@@ -12,36 +12,55 @@
 /* Main Styles */
 body {
 	background-image: url("../images/contemporary_china.png");
-  padding: 0 20%;
+  padding: 0 5%;
   font-family: 'Droid Serif', sans-serif;
   color: #333;
-  line-height: 1.5em;
+  line-height: 1.8em;
+  border-bottom: 10px solid #4581C1;
 }
 h1 {
+  text-align: center;
   margin: 2em 0;
+  line-height: 1.5em;
 }
 a {
-  color: rgba(0, 0, 0, .65);
+  color: #4581C1;
   text-decoration: none;
   -webkit-transition: color 0.25s linear;
 }
 a:hover {
-  color: rgba(0, 0, 0, .9);
+  color: #083b72;
+}
+section {
+  margin-bottom: 4em;
 }
 .hidden {
   display: none;
 }
+.profile-pic {
+  border-radius: 50%;
+  padding: 10%;
+  background: #fff;
+  max-width: 57%;
+  margin: 2em auto;
+  display: block;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.2);
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,.2);
+}
 /* Social Networks */
+.networks {
+  margin: 4em 0;
+  padding: 0;
+}
 .networks li {
   display: inline-block;
 }
 .networks li a {
-  padding: 1em 1em 0 0;
+  padding: .5em;
   display: block;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1.5em;
-
 }
 .icon {
   -webkit-transition: color 0.25s linear;
@@ -64,4 +83,19 @@ a:hover {
 .networks ul {
 text-align: center;
 }
+
 /* Media Queries */
+@media (min-width: 300px){
+  .profile-pic {
+    padding: 21px;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    padding: 0 30%;
+  }
+  .profile-pic {
+    max-width: 80%;
+  }
+}
+
