@@ -1,13 +1,11 @@
 /* Imports */
 @import 'fonts.css';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css';
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-@import url('https://fonts.googleapis.com/css?family=Alegreya');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif');
 /* Main Styles */
 body {
-	background-image: url("../images/contemporary_china.png");
+	background-image: url("../images/contemporary_china_blue.png");
   padding: 0 5%;
   font-family: 'Droid Serif', sans-serif;
   color: #333;
