@@ -5,10 +5,10 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif');
 /* Main Styles */
 body {
-	background-image: url("../images/contemporary_china_blue.png");
+	background-image: url("../images/footer_lodyas.png");
   padding: 0 5%;
   font-family: 'Droid Serif', sans-serif;
-  color: #333;
+  color: white;
   line-height: 1.8em;
   border-bottom: 10px solid #4581C1;
 }
