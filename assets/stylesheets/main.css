@@ -41,6 +41,20 @@ section {
   -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.2);
   box-shadow: 0 1px 5px 0 rgba(0,0,0,.2);
 }
+.skills ul {
+	text-align: center;
+	margin-bottom: 2em;
+}
+.skills li {
+	display: inline-block;
+	margin : 0.5em;
+	padding: 5px 15px;
+	border-radius: 20px;
+	background:grey;
+	list-style: none;
+}
+
+
 /* Social Networks */
 .networks {
   margin: 4em 0;
