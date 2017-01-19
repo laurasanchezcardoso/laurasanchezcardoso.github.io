@@ -4,19 +4,47 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
 /* Main Styles */
 body {
-	background-image: url("../images/footer_lodyas.png");
+  background-image: url("../images/background.png");
   padding: 0 5%;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
   color: #d6d6d6;
   line-height: 1.8em;
-  border-bottom: 10px solid #67b8df;
+  border-bottom: 10px solid #01E0FE;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
-nav li{
-  display: inline-block;
+h1 {
+  text-align: center;
+  margin: 2em 0;
+  line-height: 1.5em;
+  text-shadow: 0 2px 4px #000;
+}
+h2 {
+  color: #fff;
+}
+a {
+  color: #01E0FE;
+  text-decoration: none;
+  font-weight: 700;
+  -webkit-transition: color 0.25s linear;
+}
+a:hover {
+  color: #6aedff;
+  text-decoration: underline;
+}
+strong {
+  font-weight: 700;
+  display: block;
+}
+section {
+  margin-bottom: 4em;
 }
 nav ul {
   text-align: right;
+}
+nav li{
+  display: inline-block;
 }
 nav li a {
   padding: 1em;
@@ -26,29 +54,6 @@ nav li:last-of-type a{
 }
 nav li a.active {
   color: white;
-}
-h1 {
-  text-align: center;
-  margin: 2em 0;
-  line-height: 1.5em;
-}
-h2 {
-  color: #fff;
-}
-a {
-  color: #67b8df;
-  text-decoration: none;
-  -webkit-transition: color 0.25s linear;
-}
-a:hover {
-  color: #7ed3fc;
-}
-strong {
-  font-weight: 700;
-  display: block;
-}
-section {
-  margin-bottom: 4em;
 }
 .hidden {
   display: none;
@@ -63,22 +68,29 @@ section {
   -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.2);
   box-shadow: 0 1px 5px 0 rgba(0,0,0,.2);
 }
+/* Skills */
 .skills ul {
-	text-align: center;
-	margin-bottom: 2em;
+  text-align: center;
+  margin-bottom: 2em;
 }
 .skills li {
-	display: inline-block;
-	margin : 0.5em;
-	padding: 5px 15px;
-	border-radius: 20px;
-	background: #0f0f0f;
-	list-style: none;
+  display: inline-block;
+  margin : 0.5em;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background: #4f4f4f;
+  -webkit-box-shadow: inset 0 0 20px 4px rgba(0,0,0,0.5);
+  box-shadow: inset 0 0 20px 4px rgba(0,0,0,0.5);
+  color: #fff;
+  list-style: none;
 }
 /* Social Networks */
 .networks {
   margin: 4em 0;
   padding: 0;
+}
+.networks ul {
+  text-align: center;
 }
 .networks li {
   display: inline-block;
@@ -92,24 +104,6 @@ section {
 }
 .icon {
   -webkit-transition: color 0.25s linear;
-}
-.icon-email:hover {
-  color: #cf4a39;
-}
-.icon-facebook:hover {
-  color: #3b5998;
-}
-.icon-github:hover {
-  color: #333;
-}
-.icon-linkedin:hover {
-  color: #117eb9;
-}
-.icon-twitter:hover {
-  color: #1da1f2;
-}
-.networks ul {
-text-align: center;
 }
 /* Media Queries */
 @media (min-width: 300px){
