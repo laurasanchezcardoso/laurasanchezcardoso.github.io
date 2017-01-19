@@ -10,7 +10,7 @@ body {
   font-weight: 400;
   color: #d6d6d6;
   line-height: 1.8em;
-  border-bottom: 10px solid #4581C1;
+  border-bottom: 10px solid #67b8df;
 }
 nav li{
   display: inline-block;
@@ -20,14 +20,12 @@ nav ul {
 }
 nav li a {
   padding: 1em;
-  border-right: 1px solid #4f4f4f;
 }
 nav li:last-of-type a{
   padding-right: 0;
-  border-right: none;
 }
 nav li a.active {
-  color: #aa0000;
+  color: white;
 }
 h1 {
   text-align: center;
