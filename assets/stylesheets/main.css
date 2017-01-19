@@ -1,29 +1,53 @@
 /* Imports */
 @import 'fonts.css';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css';
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
-@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
 /* Main Styles */
 body {
 	background-image: url("../images/footer_lodyas.png");
   padding: 0 5%;
-  font-family: 'Droid Serif', sans-serif;
-  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  color: #d6d6d6;
   line-height: 1.8em;
   border-bottom: 10px solid #4581C1;
+}
+nav li{
+  display: inline-block;
+}
+nav ul {
+  text-align: right;
+}
+nav li a {
+  padding: 1em;
+  border-right: 1px solid #4f4f4f;
+}
+nav li:last-of-type a{
+  padding-right: 0;
+  border-right: none;
+}
+nav li a.active {
+  color: #aa0000;
 }
 h1 {
   text-align: center;
   margin: 2em 0;
   line-height: 1.5em;
 }
+h2 {
+  color: #fff;
+}
 a {
-  color: #4581C1;
+  color: #67b8df;
   text-decoration: none;
   -webkit-transition: color 0.25s linear;
 }
 a:hover {
-  color: #083b72;
+  color: #7ed3fc;
+}
+strong {
+  font-weight: 700;
+  display: block;
 }
 section {
   margin-bottom: 4em;
@@ -50,11 +74,9 @@ section {
 	margin : 0.5em;
 	padding: 5px 15px;
 	border-radius: 20px;
-	background:grey;
+	background: #0f0f0f;
 	list-style: none;
 }
-
-
 /* Social Networks */
 .networks {
   margin: 4em 0;
@@ -91,7 +113,6 @@ section {
 .networks ul {
 text-align: center;
 }
-
 /* Media Queries */
 @media (min-width: 300px){
   .profile-pic {
@@ -106,4 +127,3 @@ text-align: center;
     max-width: 80%;
   }
 }
-
